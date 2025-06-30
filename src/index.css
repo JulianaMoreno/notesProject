@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #43da87;
-    --secondary-color: #50e3ab;
+    --primary-color: #2e915b;
+    --secondary-color: #43c995;
     --background-color: #9df09b;
     --font-family: 'Lucida Console', sans-serif;
     --primary-text-color: #1f1e1e;
-    --secondary-text-color: #555;
-    --border: #747272;
+    --secondary-text-color: #888686;
+    --border: #b1b1b1;
 }
 
 body {

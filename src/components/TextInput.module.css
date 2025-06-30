@@ -6,3 +6,8 @@
     padding: 6px;
     resize: vertical;
 }
+
+.counter {
+    display: flex;
+    justify-content: end;
+}

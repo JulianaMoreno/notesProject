@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 
+        'avatar userInfo'
+        'avatar note';
+    gap: 4px 16px;
+    margin: 20px 0;
+}
+
+.avatar {
+    grid-area: avatar;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.userInfo {
+    grid-area: userInfo;
+}
+
+.name {
+    font-weight: bold;
+    color: var(--primary-text-color);
+}
+
+.username, .date {
+    color: var(--secondary-text-color);
+    padding-left: 8px;
+}
+
+.note {
+    grid-area: note;
+    color: var(--primary-text-color);
+}
+
+.actions {
+    grid-area: actions;
+    margin: 0px 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.actions:hover {
+    opacity: 0.9;
+}   
