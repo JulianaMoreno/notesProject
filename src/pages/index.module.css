@@ -12,6 +12,11 @@
     opacity: 0.9;
 }
 
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 .list {
     list-style-type: none;
     margin: 32px 0;
